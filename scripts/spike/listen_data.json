@@ -2,257 +2,321 @@
   {
     "title": "Mix Vallenato Romántico",
     "artist": "Sundin Galue",
+    "album": "Mix Vallenato Romántico - EP",
     "year": 2021,
     "genre": "Música tropical",
     "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/b8/59/80/b85980dd-39b2-5a62-8455-6842ec203fab/mzaf_10961928995941053061.plus.aac.p.m4a",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fa/62/bb/fa62bbc4-cba1-dcbc-29bf-7ace04522e44/0.jpg/100x100bb.jpg"
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/fa/62/bb/fa62bbc4-cba1-dcbc-29bf-7ace04522e44/0.jpg/100x100bb.jpg",
+    "source": "iTunes"
   },
   {
     "title": "Si No Te Puedo Ver",
     "artist": "Erik Joao",
+    "album": "Vallenato Romántico - Single",
     "year": 2020,
     "genre": "Música tropical",
     "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/8f/82/74/8f8274ce-67f5-7671-d434-c61b5cfaa69c/mzaf_8024822257533202892.plus.aac.p.m4a",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/88/f0/39/88f03975-3b8b-e01e-4690-79a799a0bcb2/0.jpg/100x100bb.jpg"
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/88/f0/39/88f03975-3b8b-e01e-4690-79a799a0bcb2/0.jpg/100x100bb.jpg",
+    "source": "iTunes"
   },
   {
     "title": "Vallenato Romántico",
     "artist": "Varon del vallenato",
+    "album": "Fervor del vallenato",
     "year": "N/A",
     "genre": "N/A",
-    "url": "https://cdnt-preview.dzcdn.net/api/1/1/2/6/9/0/2699d0edd5f5ae2780ea97b60d2b8d97.mp3?hdnea=exp=1793470770~acl=/api/1/1/2/6/9/0/2699d0edd5f5ae2780ea97b60d2b8d97.mp3*~data=user_id=0,application_id=42~hmac=ba1f2c6f4fac10a98ab3a8ef5ee536e2c2342320fff030cf8410fc153957341f",
-    "cover": "https://cdn-images.dzcdn.net/images/cover/950f05fe3a53f4760af6c370f4696ca0/56x56-000000-80-0-0.jpg"
+    "url": "https://cdnt-preview.dzcdn.net/api/1/1/2/6/9/0/2699d0edd5f5ae2780ea97b60d2b8d97.mp3?hdnea=exp=1793471542~acl=/api/1/1/2/6/9/0/2699d0edd5f5ae2780ea97b60d2b8d97.mp3*~data=user_id=0,application_id=42~hmac=125b9675622e70b4fe1f8c62e23f6096be26d40cef97bb9f5a8415f0b2b54e66",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/950f05fe3a53f4760af6c370f4696ca0/56x56-000000-80-0-0.jpg",
+    "source": "Deezer"
   },
   {
     "title": "vallenato romantico de venezuela",
     "artist": "Varon del vallenato",
+    "album": "Fervor del vallenato",
     "year": "N/A",
     "genre": "N/A",
-    "url": "https://cdnt-preview.dzcdn.net/api/1/1/6/f/d/0/6fddf892a2253a6a0c4f145f6e329ae2.mp3?hdnea=exp=1793470770~acl=/api/1/1/6/f/d/0/6fddf892a2253a6a0c4f145f6e329ae2.mp3*~data=user_id=0,application_id=42~hmac=cea6712ba6d3131ed0ca4d73d9992e313886792a423181ab91b180ee4280f83f",
-    "cover": "https://cdn-images.dzcdn.net/images/cover/950f05fe3a53f4760af6c370f4696ca0/56x56-000000-80-0-0.jpg"
+    "url": "https://cdnt-preview.dzcdn.net/api/1/1/6/f/d/0/6fddf892a2253a6a0c4f145f6e329ae2.mp3?hdnea=exp=1793471542~acl=/api/1/1/6/f/d/0/6fddf892a2253a6a0c4f145f6e329ae2.mp3*~data=user_id=0,application_id=42~hmac=c488d6a2a2cb280ec8c8213a11dc847d376503a1d5527d6ec5d217eff5bed83e",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/950f05fe3a53f4760af6c370f4696ca0/56x56-000000-80-0-0.jpg",
+    "source": "Deezer"
   },
   {
     "title": "Salsa Brava",
     "artist": "Fruko y Sus Tesos",
+    "album": "Colección de Oro: De la Salsa, Vol. 3",
     "year": 1979,
     "genre": "Música tropical",
     "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2f/af/de/2fafde2d-69c1-774f-49d6-3d2f1776df10/mzaf_9301398332463431677.plus.aac.p.m4a",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m06/d13/h12/s05.vvicoset.jpg/100x100bb.jpg"
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m06/d13/h12/s05.vvicoset.jpg/100x100bb.jpg",
+    "source": "iTunes"
   },
   {
     "title": "Tu Con El",
     "artist": "Salsa Brava",
+    "album": "Que Viva La Salsa Instrumental",
     "year": 2019,
     "genre": "Música tropical",
     "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a4/c0/86/a4c086c3-7606-ae45-6111-3d35d81c90d9/mzaf_4743832392107446383.plus.aac.p.m4a",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/8d/93/fe8d9374-5ba6-2ce9-c8a7-8234e29e111c/634438756439_cover.jpg/100x100bb.jpg"
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/fe/8d/93/fe8d9374-5ba6-2ce9-c8a7-8234e29e111c/634438756439_cover.jpg/100x100bb.jpg",
+    "source": "iTunes"
   },
   {
     "title": "Salsa Brava",
     "artist": "Fruko Y Sus Tesos",
+    "album": "Fruko, El Teso",
     "year": "N/A",
     "genre": "N/A",
-    "url": "https://cdnt-preview.dzcdn.net/api/1/1/b/a/8/0/ba8cbbcd34644d15db1a8c459ed756dd.mp3?hdnea=exp=1793470771~acl=/api/1/1/b/a/8/0/ba8cbbcd34644d15db1a8c459ed756dd.mp3*~data=user_id=0,application_id=42~hmac=56a10a13329f9d35a4d81d3cc4c31903972e410a80e7cf4edd9ab3618f0e791a",
-    "cover": "https://cdn-images.dzcdn.net/images/cover/0187b0034ad0e206a5f431868c97622e/56x56-000000-80-0-0.jpg"
+    "url": "https://cdnt-preview.dzcdn.net/api/1/1/b/a/8/0/ba8cbbcd34644d15db1a8c459ed756dd.mp3?hdnea=exp=1793471543~acl=/api/1/1/b/a/8/0/ba8cbbcd34644d15db1a8c459ed756dd.mp3*~data=user_id=0,application_id=42~hmac=3cf29beaf24a33abc9c6b610c02f0f4cc1c6c3c6abb666416d01ed41ef96e5ae",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/0187b0034ad0e206a5f431868c97622e/56x56-000000-80-0-0.jpg",
+    "source": "Deezer"
   },
   {
     "title": "Salsa Brava",
     "artist": "Orchestra Fuego",
+    "album": "Salsa Brava",
     "year": "N/A",
     "genre": "N/A",
-    "url": "https://cdnt-preview.dzcdn.net/api/1/1/4/e/0/0/4e07a02bc5a228b4c1ebb77f88883cab.mp3?hdnea=exp=1793470771~acl=/api/1/1/4/e/0/0/4e07a02bc5a228b4c1ebb77f88883cab.mp3*~data=user_id=0,application_id=42~hmac=b6923be9ba6ce71c1ee4d0d762d7c04fc383de89504f7babb9fe1012c99cdd74",
-    "cover": "https://cdn-images.dzcdn.net/images/cover/c767e7fcca3091de73b42030ad51dcc3/56x56-000000-80-0-0.jpg"
+    "url": "https://cdnt-preview.dzcdn.net/api/1/1/4/e/0/0/4e07a02bc5a228b4c1ebb77f88883cab.mp3?hdnea=exp=1793471543~acl=/api/1/1/4/e/0/0/4e07a02bc5a228b4c1ebb77f88883cab.mp3*~data=user_id=0,application_id=42~hmac=339eff9018f51e3856cb9e383a17714d8074778876766021b6c5068371ed126c",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c767e7fcca3091de73b42030ad51dcc3/56x56-000000-80-0-0.jpg",
+    "source": "Deezer"
   },
   {
     "title": "En Algún Lugar",
     "artist": "Duncan Dhu",
+    "album": "El Grito del Tiempo",
     "year": 1987,
     "genre": "Latin",
     "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3d/12/b8/3d12b80f-dddb-9fef-35fc-d62641bc4cde/mzaf_8559803924598941335.plus.aac.p.m4a",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/af/fa/e5/affae515-da0f-a25f-e3e6-39e415a7c0ae/090317877068.jpg/100x100bb.jpg"
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/af/fa/e5/affae515-da0f-a25f-e3e6-39e415a7c0ae/090317877068.jpg/100x100bb.jpg",
+    "source": "iTunes"
   },
   {
     "title": "La Muralla Verde",
     "artist": "Los Enanitos Verdes",
+    "album": "Originales - 20 Éxitos",
     "year": 1990,
     "genre": "Rock y Alternativo",
     "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/bb/ef/1bbbef1f-9885-c2d6-d5a4-c70f560ada34/mzaf_5861615226252341200.plus.aac.p.m4a",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/3b/8d/37/3b8d374a-e4ef-b3ed-adf3-c24f7df39659/dj.sjjpzwfx.jpg/100x100bb.jpg"
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Features124/v4/3b/8d/37/3b8d374a-e4ef-b3ed-adf3-c24f7df39659/dj.sjjpzwfx.jpg/100x100bb.jpg",
+    "source": "iTunes"
   },
   {
     "title": "Rock en Español",
     "artist": "Cuca",
+    "album": "Semen",
     "year": "N/A",
     "genre": "N/A",
-    "url": "https://cdnt-preview.dzcdn.net/api/1/1/f/f/2/0/ff23e62f5dc3d12cf0b5d05aa152d3f3.mp3?hdnea=exp=1793470773~acl=/api/1/1/f/f/2/0/ff23e62f5dc3d12cf0b5d05aa152d3f3.mp3*~data=user_id=0,application_id=42~hmac=de64385e7550785991409bc83acf5cf25bdde84e4369bd89cec9b208ead43a78",
-    "cover": "https://cdn-images.dzcdn.net/images/cover/8d718478520b77c34e695a1b7f3210e6/56x56-000000-80-0-0.jpg"
+    "url": "https://cdnt-preview.dzcdn.net/api/1/1/f/f/2/0/ff23e62f5dc3d12cf0b5d05aa152d3f3.mp3?hdnea=exp=1793471544~acl=/api/1/1/f/f/2/0/ff23e62f5dc3d12cf0b5d05aa152d3f3.mp3*~data=user_id=0,application_id=42~hmac=69fad544d79ba1e309f5d630ba5a1a0f6593df19f925cef0d44fd1f35273b1f8",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/8d718478520b77c34e695a1b7f3210e6/56x56-000000-80-0-0.jpg",
+    "source": "Deezer"
   },
   {
     "title": "Rock en Español (En Vivo)",
     "artist": "Latin Band DIVINE",
+    "album": "Rock en Español (En Vivo)",
     "year": "N/A",
     "genre": "N/A",
-    "url": "https://cdnt-preview.dzcdn.net/api/1/1/c/1/9/0/c198b96240e0987e0b38b1ad61c3321f.mp3?hdnea=exp=1793470773~acl=/api/1/1/c/1/9/0/c198b96240e0987e0b38b1ad61c3321f.mp3*~data=user_id=0,application_id=42~hmac=4dbd2416af87ac9b57ff912a89286f825461912002cc3ef33bbd31f8ad6fefa1",
-    "cover": "https://cdn-images.dzcdn.net/images/cover/e1c4690e19218d69a097e69586258ff0/56x56-000000-80-0-0.jpg"
+    "url": "https://cdnt-preview.dzcdn.net/api/1/1/c/1/9/0/c198b96240e0987e0b38b1ad61c3321f.mp3?hdnea=exp=1793471544~acl=/api/1/1/c/1/9/0/c198b96240e0987e0b38b1ad61c3321f.mp3*~data=user_id=0,application_id=42~hmac=f61443e72faa9658dfc96b4262012dcefa9fb80ca6952335780f2c5e5db9ee96",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/e1c4690e19218d69a097e69586258ff0/56x56-000000-80-0-0.jpg",
+    "source": "Deezer"
   },
   {
     "title": "Niégame Tres Veces",
     "artist": "Silvestre Dangond",
+    "album": "Sigo Invicto",
     "year": 2014,
     "genre": "Latin",
     "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/03/99/00/03990082-4f8a-e846-af4f-d3f3ab73ae44/mzaf_17781788309888738416.plus.aac.p.m4a",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/37/e6/96/37e696a1-f376-86a0-d707-f80ff1867df3/886444943390.jpg/100x100bb.jpg"
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music1/v4/37/e6/96/37e696a1-f376-86a0-d707-f80ff1867df3/886444943390.jpg/100x100bb.jpg",
+    "source": "iTunes"
   },
   {
     "title": "Cásate Conmigo",
     "artist": "Silvestre Dangond & Nicky Jam",
+    "album": "Cásate Conmigo - Single",
     "year": 2017,
     "genre": "Urbano latino",
     "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2f/fe/cf/2ffecfa7-157d-1700-abf5-17c196c68157/mzaf_11842889685391172405.plus.aac.p.m4a",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/d1/97/3dd1972b-e1c5-638b-29d4-06ab31f013c7/886446731964.jpg/100x100bb.jpg"
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/d1/97/3dd1972b-e1c5-638b-29d4-06ab31f013c7/886446731964.jpg/100x100bb.jpg",
+    "source": "iTunes"
   },
   {
     "title": "Hay Amores",
     "artist": "Silvestre Dangond",
+    "album": "Hay Amores",
     "year": "N/A",
     "genre": "N/A",
-    "url": "https://cdnt-preview.dzcdn.net/api/1/1/d/6/6/0/d6687e664e9eff28bb7d399070366faa.mp3?hdnea=exp=1793470774~acl=/api/1/1/d/6/6/0/d6687e664e9eff28bb7d399070366faa.mp3*~data=user_id=0,application_id=42~hmac=521941c19a0b68acfc990200f1c165fd9066c305b8aaae4d93024f6cac7176c6",
-    "cover": "https://cdn-images.dzcdn.net/images/cover/6a34e84ca91c74b60502613f17addf87/56x56-000000-80-0-0.jpg"
+    "url": "https://cdnt-preview.dzcdn.net/api/1/1/d/6/6/0/d6687e664e9eff28bb7d399070366faa.mp3?hdnea=exp=1793471546~acl=/api/1/1/d/6/6/0/d6687e664e9eff28bb7d399070366faa.mp3*~data=user_id=0,application_id=42~hmac=eeb86bc50cc2dd958cef34473cc628c9d2f9b4699c8a0d009bad98dc372d2e0b",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/6a34e84ca91c74b60502613f17addf87/56x56-000000-80-0-0.jpg",
+    "source": "Deezer"
   },
   {
     "title": "Cásate Conmigo",
     "artist": "Nicky Jam",
+    "album": "Cásate Conmigo",
     "year": "N/A",
     "genre": "N/A",
-    "url": "https://cdnt-preview.dzcdn.net/api/1/1/4/9/f/0/49f7e72d681bbe2e5c98786e7acfe99f.mp3?hdnea=exp=1793470774~acl=/api/1/1/4/9/f/0/49f7e72d681bbe2e5c98786e7acfe99f.mp3*~data=user_id=0,application_id=42~hmac=75355d7af37636937b40238f51520d13d6f2ba5ca79b9e5ff71687d16ed07db2",
-    "cover": "https://cdn-images.dzcdn.net/images/cover/c1636ae1a9432ebbbadef29b8dff95d3/56x56-000000-80-0-0.jpg"
+    "url": "https://cdnt-preview.dzcdn.net/api/1/1/4/9/f/0/49f7e72d681bbe2e5c98786e7acfe99f.mp3?hdnea=exp=1793471546~acl=/api/1/1/4/9/f/0/49f7e72d681bbe2e5c98786e7acfe99f.mp3*~data=user_id=0,application_id=42~hmac=c3db36df0e5e92074b4e05f538296dac182df0650e197167db6c4182e26bbae7",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/c1636ae1a9432ebbbadef29b8dff95d3/56x56-000000-80-0-0.jpg",
+    "source": "Deezer"
   },
   {
     "title": "La Bicicleta",
     "artist": "Carlos Vives & Shakira",
+    "album": "VIVES",
     "year": 2016,
     "genre": "Pop Latino",
     "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/26/cf/97/26cf97d8-8047-25cd-e8bd-81090ceb3126/mzaf_1920180377816560693.plus.aac.p.m4a",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8d/58/3d/8d583d74-d03c-b26e-9b4b-65a32f4eb8b0/886446730196.jpg/100x100bb.jpg"
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/8d/58/3d/8d583d74-d03c-b26e-9b4b-65a32f4eb8b0/886446730196.jpg/100x100bb.jpg",
+    "source": "iTunes"
   },
   {
     "title": "La Gota Fría",
     "artist": "Carlos Vives",
+    "album": "Clásicos de la Provincia",
     "year": 1993,
     "genre": "Latin",
     "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/25/1c/64/251c64df-1fd9-824b-e0cf-43dd5c1a49c8/mzaf_9425335053053873695.plus.aac.p.m4a",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/af/a3/73afa343-f187-efa2-07be-12a9d53dbdc5/195497756858.jpg/100x100bb.jpg"
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/73/af/a3/73afa343-f187-efa2-07be-12a9d53dbdc5/195497756858.jpg/100x100bb.jpg",
+    "source": "iTunes"
   },
   {
     "title": "La Bicicleta",
     "artist": "Carlos Vives",
+    "album": "VIVES",
     "year": "N/A",
     "genre": "N/A",
-    "url": "https://cdnt-preview.dzcdn.net/api/1/1/e/b/c/0/ebcef9c1a839b88265d9f802bbb9a817.mp3?hdnea=exp=1793470775~acl=/api/1/1/e/b/c/0/ebcef9c1a839b88265d9f802bbb9a817.mp3*~data=user_id=0,application_id=42~hmac=be09bc5359f6bbb2990b7e3c633c593829a69b488ddf12682cf523ef79460863",
-    "cover": "https://cdn-images.dzcdn.net/images/cover/50b8f98b1cf511d526a67d33d8ec6109/56x56-000000-80-0-0.jpg"
+    "url": "https://cdnt-preview.dzcdn.net/api/1/1/e/b/c/0/ebcef9c1a839b88265d9f802bbb9a817.mp3?hdnea=exp=1793471547~acl=/api/1/1/e/b/c/0/ebcef9c1a839b88265d9f802bbb9a817.mp3*~data=user_id=0,application_id=42~hmac=7525b838d9f438404eb799fc70e76b144f63fbca62b572f0c1ee07f288fe5f56",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/50b8f98b1cf511d526a67d33d8ec6109/56x56-000000-80-0-0.jpg",
+    "source": "Deezer"
   },
   {
     "title": "Beso (Fruta Fresca)",
     "artist": "Wakyin",
+    "album": "Beso (Fruta Fresca)",
     "year": "N/A",
     "genre": "N/A",
-    "url": "https://cdnt-preview.dzcdn.net/api/1/1/6/b/d/0/6bd968a8e5b0ed4d5af28a07a44023c2.mp3?hdnea=exp=1793470775~acl=/api/1/1/6/b/d/0/6bd968a8e5b0ed4d5af28a07a44023c2.mp3*~data=user_id=0,application_id=42~hmac=a3f7097e82b4194841ceb7ad49aca4c272e37f68b68e487cfe4091a833e072f7",
-    "cover": "https://cdn-images.dzcdn.net/images/cover/5f7efa36d37c3163dc3174db7a879a4e/56x56-000000-80-0-0.jpg"
+    "url": "https://cdnt-preview.dzcdn.net/api/1/1/6/b/d/0/6bd968a8e5b0ed4d5af28a07a44023c2.mp3?hdnea=exp=1793471547~acl=/api/1/1/6/b/d/0/6bd968a8e5b0ed4d5af28a07a44023c2.mp3*~data=user_id=0,application_id=42~hmac=25ab74e32a744a5bbb60a9a01d2c5f00425e29804aab569012084d610b4a60c3",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/5f7efa36d37c3163dc3174db7a879a4e/56x56-000000-80-0-0.jpg",
+    "source": "Deezer"
   },
   {
     "title": "Hips Don't Lie (feat. Wyclef Jean)",
     "artist": "Shakira",
+    "album": "Oral Fixation, Vol. 2 (Expanded Edition)",
     "year": 2005,
     "genre": "Pop Latino",
     "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ac/c7/61/acc7619f-c1e3-e0a5-df9b-0329a35af062/mzaf_13106936727189536738.plus.aac.p.m4a",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/b5/8a/0db58a8b-7b17-dd53-3464-116a415d0f49/196872648836.jpg/100x100bb.jpg"
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/0d/b5/8a/0db58a8b-7b17-dd53-3464-116a415d0f49/196872648836.jpg/100x100bb.jpg",
+    "source": "iTunes"
   },
   {
     "title": "Waka Waka (Esto es Africa) [feat. Freshlyground]",
     "artist": "Shakira",
+    "album": "Waka Waka (Esto es Africa) [feat. Freshlyground] - Single",
     "year": 2010,
     "genre": "Pop",
     "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c1/72/b5/c172b57b-0476-aeed-94d2-32d1a83562d1/mzaf_841448688891614243.plus.aac.p.m4a",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c4/6e/63/c46e6321-2a8a-dfaa-2c0f-21d4b62450b3/884977620108.jpg/100x100bb.jpg"
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/c4/6e/63/c46e6321-2a8a-dfaa-2c0f-21d4b62450b3/884977620108.jpg/100x100bb.jpg",
+    "source": "iTunes"
   },
   {
     "title": "Dai Dai",
     "artist": "Shakira",
+    "album": "Dai Dai",
     "year": "N/A",
     "genre": "N/A",
-    "url": "https://cdnt-preview.dzcdn.net/api/1/1/3/6/e/0/36e9c5c8807733ef0c975986dcb4a106.mp3?hdnea=exp=1793470776~acl=/api/1/1/3/6/e/0/36e9c5c8807733ef0c975986dcb4a106.mp3*~data=user_id=0,application_id=42~hmac=b543cb70d349ab90d480f08a088734d755e812c6a047e8395956b265bab195c4",
-    "cover": "https://cdn-images.dzcdn.net/images/cover/a7f9bae0243c512059298a68d09f45a1/56x56-000000-80-0-0.jpg"
+    "url": "https://cdnt-preview.dzcdn.net/api/1/1/3/6/e/0/36e9c5c8807733ef0c975986dcb4a106.mp3?hdnea=exp=1793471548~acl=/api/1/1/3/6/e/0/36e9c5c8807733ef0c975986dcb4a106.mp3*~data=user_id=0,application_id=42~hmac=9db45c2bf70f617eb03feb9226dec9835ec9011a6ba920f1b389764e8f91c81d",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/a7f9bae0243c512059298a68d09f45a1/56x56-000000-80-0-0.jpg",
+    "source": "Deezer"
   },
   {
     "title": "She Wolf",
     "artist": "Shakira",
+    "album": "She Wolf (Expanded Edition)",
     "year": "N/A",
     "genre": "N/A",
-    "url": "https://cdnt-preview.dzcdn.net/api/1/1/3/7/e/0/37e3bf04299db83f70c45dc9cabf4e9b.mp3?hdnea=exp=1793470776~acl=/api/1/1/3/7/e/0/37e3bf04299db83f70c45dc9cabf4e9b.mp3*~data=user_id=0,application_id=42~hmac=655db6a6662ecfd9bce4201c8c303a198a931430e281ec11614018f6162a15a2",
-    "cover": "https://cdn-images.dzcdn.net/images/cover/2ae86792415f9bd01ecfcaceb58c68dc/56x56-000000-80-0-0.jpg"
+    "url": "https://cdnt-preview.dzcdn.net/api/1/1/3/7/e/0/37e3bf04299db83f70c45dc9cabf4e9b.mp3?hdnea=exp=1793471548~acl=/api/1/1/3/7/e/0/37e3bf04299db83f70c45dc9cabf4e9b.mp3*~data=user_id=0,application_id=42~hmac=bfa4381587883bffe10e78d3a5255ff8d5b0c037640079410d0b608b50ee3f07",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/2ae86792415f9bd01ecfcaceb58c68dc/56x56-000000-80-0-0.jpg",
+    "source": "Deezer"
   },
   {
     "title": "Rebelion",
     "artist": "Joe Arroyo",
+    "album": "Joe Arroyo: Grandes Exitos, Vol. 1",
     "year": 1986,
     "genre": "Latin",
     "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/37/40/5a/37405aec-df17-b41c-611f-45114105a5af/mzaf_4625978530328128667.plus.aac.p.m4a",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/24/70/98/2470980a-0205-a6bc-ef69-e9f6660c1764/s05.glwsozpa.jpg/100x100bb.jpg"
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/24/70/98/2470980a-0205-a6bc-ef69-e9f6660c1764/s05.glwsozpa.jpg/100x100bb.jpg",
+    "source": "iTunes"
   },
   {
     "title": "En Barranquilla Me Quedo (feat. La Verdad)",
     "artist": "Joe Arroyo",
+    "album": "La Leyenda - 40 Hits",
     "year": 1981,
     "genre": "Música tropical",
     "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cc/52/f5/cc52f5b7-a247-1ed0-ed24-841f3613204d/mzaf_8004871337572182916.plus.aac.p.m4a",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/51/fe/49/51fe4973-85fd-e8fd-e580-b76b31b81859/mzm.wsptprxt.jpg/100x100bb.jpg"
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/51/fe/49/51fe4973-85fd-e8fd-e580-b76b31b81859/mzm.wsptprxt.jpg/100x100bb.jpg",
+    "source": "iTunes"
   },
   {
     "title": "La rebelion",
     "artist": "Joe Arroyo",
+    "album": "Sabor a Salsa",
     "year": "N/A",
     "genre": "N/A",
-    "url": "https://cdnt-preview.dzcdn.net/api/1/1/c/9/d/0/c9d2ce812fe14a83e46e9697daf59a78.mp3?hdnea=exp=1793470777~acl=/api/1/1/c/9/d/0/c9d2ce812fe14a83e46e9697daf59a78.mp3*~data=user_id=0,application_id=42~hmac=f605458978c3fe31ac2ed1a133bf65a26268e0367c3d73ba3c1ebad9a1d2c1ea",
-    "cover": "https://cdn-images.dzcdn.net/images/cover/041d3feebb1a9d5130dcf27cc00a3696/56x56-000000-80-0-0.jpg"
+    "url": "https://cdnt-preview.dzcdn.net/api/1/1/c/9/d/0/c9d2ce812fe14a83e46e9697daf59a78.mp3?hdnea=exp=1793471549~acl=/api/1/1/c/9/d/0/c9d2ce812fe14a83e46e9697daf59a78.mp3*~data=user_id=0,application_id=42~hmac=460f7547a062ab8114745e1ce5d303e58cfb097f929c0fabd5c9e4e9c93b4f84",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/041d3feebb1a9d5130dcf27cc00a3696/56x56-000000-80-0-0.jpg",
+    "source": "Deezer"
   },
   {
     "title": "La noche",
     "artist": "Joe Arroyo",
+    "album": "Sabor a Salsa",
     "year": "N/A",
     "genre": "N/A",
-    "url": "https://cdnt-preview.dzcdn.net/api/1/1/d/e/2/0/de2877e1f35325a1f0d09c5e55cf54a0.mp3?hdnea=exp=1793470777~acl=/api/1/1/d/e/2/0/de2877e1f35325a1f0d09c5e55cf54a0.mp3*~data=user_id=0,application_id=42~hmac=5b55a38430f4a4c1855d919c6c6cac870caf914aa5fcb4c99454a52fae23434d",
-    "cover": "https://cdn-images.dzcdn.net/images/cover/041d3feebb1a9d5130dcf27cc00a3696/56x56-000000-80-0-0.jpg"
+    "url": "https://cdnt-preview.dzcdn.net/api/1/1/d/e/2/0/de2877e1f35325a1f0d09c5e55cf54a0.mp3?hdnea=exp=1793471549~acl=/api/1/1/d/e/2/0/de2877e1f35325a1f0d09c5e55cf54a0.mp3*~data=user_id=0,application_id=42~hmac=bd08dbac32bf78b137175681dfaa850762b5f4e4932d160c9e849cabdfebc014",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/041d3feebb1a9d5130dcf27cc00a3696/56x56-000000-80-0-0.jpg",
+    "source": "Deezer"
   },
   {
     "title": "NUEVAYoL",
     "artist": "Bad Bunny",
+    "album": "DeBÍ TiRAR MáS FOToS",
     "year": 2025,
     "genre": "Latin",
     "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2e/97/55/2e97555a-1ed3-9e07-de57-07e1213186c9/mzaf_7594924455925081680.plus.aac.p.m4a",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/90/5e/7e/905e7ed5-a8fa-a8f3-cd06-0028fdf3afaa/199066342442.jpg/100x100bb.jpg"
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/90/5e/7e/905e7ed5-a8fa-a8f3-cd06-0028fdf3afaa/199066342442.jpg/100x100bb.jpg",
+    "source": "iTunes"
   },
   {
     "title": "LA CANCIÓN",
     "artist": "J Balvin & Bad Bunny",
+    "album": "OASIS",
     "year": 2019,
     "genre": "Urbano latino",
     "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cf/5f/ef/cf5fef49-8ab0-0d0b-f17a-d820cdca1d88/mzaf_3693019759359818051.plus.aac.p.m4a",
-    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/77/32/74/7732746d-25e5-baae-b921-bad4a07d87b1/19UMGIM55524.rgb.jpg/100x100bb.jpg"
+    "cover": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/77/32/74/7732746d-25e5-baae-b921-bad4a07d87b1/19UMGIM55524.rgb.jpg/100x100bb.jpg",
+    "source": "iTunes"
   },
   {
     "title": "NUEVAYoL",
     "artist": "Bad Bunny",
+    "album": "DeBÍ TiRAR MáS FOToS",
     "year": "N/A",
     "genre": "N/A",
-    "url": "https://cdnt-preview.dzcdn.net/api/1/1/f/6/5/0/f65ad0dfd44f0e0d1b47aa1355fcf7bc.mp3?hdnea=exp=1793470779~acl=/api/1/1/f/6/5/0/f65ad0dfd44f0e0d1b47aa1355fcf7bc.mp3*~data=user_id=0,application_id=42~hmac=99f692c1e09004c0da74beae9ae10f0f058fc4137ce2513b7ad918aef44c70dd",
-    "cover": "https://cdn-images.dzcdn.net/images/cover/d98eaccfbb945bdf68241d6de7fe6a49/56x56-000000-80-0-0.jpg"
+    "url": "https://cdnt-preview.dzcdn.net/api/1/1/f/6/5/0/f65ad0dfd44f0e0d1b47aa1355fcf7bc.mp3?hdnea=exp=1793471551~acl=/api/1/1/f/6/5/0/f65ad0dfd44f0e0d1b47aa1355fcf7bc.mp3*~data=user_id=0,application_id=42~hmac=744ca8dd1697aadd82790fc347fbd776760107a3a824a95115c8415bda223376",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d98eaccfbb945bdf68241d6de7fe6a49/56x56-000000-80-0-0.jpg",
+    "source": "Deezer"
   },
   {
     "title": "DtMF",
     "artist": "Bad Bunny",
+    "album": "DeBÍ TiRAR MáS FOToS",
     "year": "N/A",
     "genre": "N/A",
-    "url": "https://cdnt-preview.dzcdn.net/api/1/1/8/4/2/0/842a0295e03b4657f902d5fb9b3fc931.mp3?hdnea=exp=1793470779~acl=/api/1/1/8/4/2/0/842a0295e03b4657f902d5fb9b3fc931.mp3*~data=user_id=0,application_id=42~hmac=28c042a7aa35cb4b187baff457423e6d58973397249cc5688555fb81574050db",
-    "cover": "https://cdn-images.dzcdn.net/images/cover/d98eaccfbb945bdf68241d6de7fe6a49/56x56-000000-80-0-0.jpg"
+    "url": "https://cdnt-preview.dzcdn.net/api/1/1/8/4/2/0/842a0295e03b4657f902d5fb9b3fc931.mp3?hdnea=exp=1793471551~acl=/api/1/1/8/4/2/0/842a0295e03b4657f902d5fb9b3fc931.mp3*~data=user_id=0,application_id=42~hmac=c2a880ea357ad922e235b64dc862b12cfa18978fbf3b4e6059859b0c53af306d",
+    "cover": "https://cdn-images.dzcdn.net/images/cover/d98eaccfbb945bdf68241d6de7fe6a49/56x56-000000-80-0-0.jpg",
+    "source": "Deezer"
   }
 ]

@@ -14,6 +14,8 @@ export interface Player {
   name: string;
   score: number;
   lives: number;
+  streak: number;
+  lastResponseTime: number;
 }
 
 export interface GameConfig {
@@ -27,6 +29,9 @@ export interface Question {
   track: Track;
   options: Track[]; // Including the correct one
   correctTrackId: string;
+  clipSeconds: number;
+  hint: string;
+  isDegraded?: boolean;
 }
 
 export interface GameState {
@@ -35,6 +40,7 @@ export interface GameState {
   players: Player[];
   config: GameConfig;
   history: Answer[];
+  currentPlayerIndex: number;
 }
 
 export interface Answer {
@@ -63,3 +69,4 @@ export interface AudioSource {
   resolveToClip: (track: Track) => Promise<string>; // URL to playable clip
   play: (url: string, start: number, duration: number) => Promise<void>;
 }
+

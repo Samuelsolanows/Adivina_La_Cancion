@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
+    <meta charset="UTF-8">
     <title>Audio Spike Listener</title>
     <style>
         body { font-family: sans-serif; padding: 20px; background: #f4f4f9; }
@@ -14,36 +15,59 @@
         .info h4 { margin: 0; }
         .info p { margin: 5px 0; font-size: 0.9em; color: #666; }
         audio { height: 30px; }
+        .badge {
+            font-size: 0.7em; padding: 2px 6px; border-radius: 4px;
+            margin-left: 8px; font-weight: bold; text-transform: uppercase;
+        }
+        .badge-source { background: #eee; color: #333; border: 1px solid #ccc; }
+        .badge-warn { background: #ffeb3b; color: #856404; border: 1px solid #ffeeba; }
     </style>
 </head>
 <body>
     <h1>🎧 Audio SPIKE: Listen Test</h1>
     <div id="list">Loading tracks...</div>
 
+    <script src="listen_data.js"></script>
     <script>
-        async function load() {
-            try {
-                const res = await fetch('listen_data.json');
-                const data = await res.json();
-                const list = document.getElementById('list');
-                list.innerHTML = '';
+        function checkWarning(text) {
+            if (!text) return false;
+            const warnings = ['karaoke', 'tribute', 'tributo', 'live', 'en vivo', 'cover', 'instrumental', 'versión', 'version'];
+            return warnings.some(w => text.toLowerCase().includes(w));
+        }
 
-                data.slice(0, 10).forEach(t => {
-                    const div = document.createElement('div');
-                    div.className = 'card';
-                    div.innerHTML = `
-                        <img src="${t.cover}" alt="cover">
-                        <div class="info">
-                            <h4>${t.title}</h4>
-                            <p>${t.artist} | ${t.year} | ${t.genre}</p>
-                        </div>
-                        <audio controls src="${t.url}"></audio>
-                    `;
-                    list.appendChild(div);
-                });
-            } catch (e) {
-                document.getElementById('list').innerText = 'Error loading data: ' + e;
+        function load() {
+            const data = window.LISTEN_DATA;
+            if (!data) {
+                document.getElementById('list').innerText = 'No data found. Run search_test.ts first.';
+                return;
             }
+
+            const list = document.getElementById('list');
+            list.innerHTML = '';
+
+            data.slice(0, 10).forEach(t => {
+                const isWarn = checkWarning(t.title) || checkWarning(t.artist) || checkWarning(t.album);
+
+                const div = document.createElement('div');
+                div.className = 'card';
+                div.innerHTML = `
+                    <img src="${t.cover}" alt="cover">
+                    <div class="info">
+                        <h4>
+                            ${t.title}
+                            ${isWarn ? '<span class="badge badge-warn">⚠️ Especial</span>' : ''}
+                        </h4>
+                        <p>
+                            <strong>${t.artist}</strong> |
+                            <span>${t.album || 'N/A'}</span> |
+                            <span>${t.year} | ${t.genre}</span>
+                            <span class="badge badge-source">${t.source}</span>
+                        </p>
+                    </div>
+                    <audio controls src="${t.url}"></audio>
+                `;
+                list.appendChild(div);
+            });
         }
         load();
     </script>

@@ -95,25 +95,30 @@ async function run() {
       return {
         title: t.trackName,
         artist: t.artistName,
+        album: t.collectionName,
         year: t.releaseDate ? new Date(t.releaseDate).getFullYear() : 'N/A',
         genre: t.primaryGenreName,
         url: t.previewUrl,
-        cover: t.artworkUrl100
+        cover: t.artworkUrl100,
+        source: 'iTunes'
       };
     } else {
       return {
         title: t.title,
         artist: t.artist.name,
+        album: t.album.title,
         year: 'N/A', // Deezer search doesn't give year
         genre: 'N/A', // Deezer search doesn't give genre
         url: t.preview,
-        cover: t.album.cover_small
+        cover: t.album.cover_small,
+        source: 'Deezer'
       };
     }
   });
 
   fs.writeFileSync(path.join(__dirname, 'listen_data.json'), JSON.stringify(samples, null, 2));
-  console.log('--- SPIKE Finished. listen_data.json created ---');
+  fs.writeFileSync(path.join(__dirname, 'listen_data.js'), `window.LISTEN_DATA = ${JSON.stringify(samples, null, 2)};`);
+  console.log('--- SPIKE Finished. listen_data.json and listen_data.js created ---');
 }
 
 run();

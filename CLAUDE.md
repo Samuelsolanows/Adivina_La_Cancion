@@ -13,11 +13,24 @@ A web-based game where users guess songs based on short audio fragments.
 
 ## Architecture
 - `src/engine/`: Pure business logic. **Strictly forbidden** to import from `ui`, `providers`, or `audio`. Must be 100% testable.
+  - **Public API**:
+    - `buildPool(tracks, filters, rng)`: Filters, deduplicates and shuffles tracks.
+    - `generateQuestion(track, pool, config, rng)`: Creates a Question with distractors.
+    - `PointsMode`: Implementation of `GameMode` for the points system.
+    - `normalizeText(s)`: Cleans track titles for comparison.
+    - `isAcceptableAnswer(input, track)`: Levenshtein-based answer validation.
 - `src/providers/`: Integration with music APIs (Spotify, Deezer, etc.) via `TrackProvider` interface.
 - `src/audio/`: Audio abstraction (`AudioSource` and player) to handle clip resolution and playback.
 - `src/state/`: Global state management using Zustand.
 - `src/ui/`: React components.
 - `src/lib/`: Shared utilities (normalization, shuffling, caching).
+
+## Conventions
+- **TypeScript**: Strict mode enabled.
+- **Determinism**: Use `seededRng` for all randomness.
+- **State**: Zustand for lightweight, decoupled state.
+- **Testing**: Vitest for engine logic.
+- **PWA**: `vite-plugin-pwa` for installability.
 
 ## Conventions
 - **TypeScript:** Strict mode enabled.
