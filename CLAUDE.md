@@ -31,6 +31,12 @@ A web-based game where users guess songs based on short audio fragments.
 - **State**: Zustand for lightweight, decoupled state.
 - **Testing**: Vitest for engine logic.
 - **PWA**: `vite-plugin-pwa` for installability.
+- **Git Workflow**:
+  - Branching: Use `feature/<name>` for new features.
+  - Commits: Follow Conventional Commits (`feat`, `fix`, `test`, `docs`, `chore`, `refactor`).
+  - Process: No direct commits to `main`. Use Pull Requests.
+  - Security: Never commit secrets; use `.env` and verify before committing.
+
 
 ## Conventions
 - **TypeScript:** Strict mode enabled.
