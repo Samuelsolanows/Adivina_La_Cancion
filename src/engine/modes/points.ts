@@ -24,8 +24,8 @@ export const PointsMode: GameMode = {
       const multipliers = { easy: 1, medium: 1.5, hard: 2 };
       points *= multipliers[config.difficulty];
 
-      // Velocity bonus (Assuming 15s is max for easy, 8s medium, 4s hard)
-      const maxTime = { easy: 15000, medium: 8000, hard: 4000 }[config.difficulty];
+      // Velocity bonus
+      const maxTime = config.timeLimitPerQuestion;
       const timeRemaining = Math.max(0, maxTime - answer.responseTime);
       const velocityBonus = (timeRemaining / maxTime) * 50;
       points += velocityBonus;
@@ -72,13 +72,12 @@ export const PointsMode: GameMode = {
         playerId: player.id,
         trackId: '',
         isCorrect: false,
-        responseTime: 0
+        responseTime: state.config.timeLimitPerQuestion
       }],
     };
   },
 
   isFinished: (state) => {
-    // Define end condition: e.g., 10 questions per player
-    return state.currentQuestionIndex >= state.players.length * 10;
+    return state.currentQuestionIndex >= state.players.length * state.config.questionsPerPlayer;
   }
 };

@@ -75,6 +75,7 @@ export function buildPool(tracks: Track[], filters: PoolFilters, rng: () => numb
   }
 
   const pool = shuffle(Array.from(uniqueMap.values()), rng);
+
   return { pool, summary };
 }
 
