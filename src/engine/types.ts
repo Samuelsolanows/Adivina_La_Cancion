@@ -22,6 +22,9 @@ export interface GameConfig {
   difficulty: 'easy' | 'medium' | 'hard';
   fragmentDuration: number; // in seconds
   mode: 'millionaire' | 'last-man-standing' | 'points';
+  questionsPerPlayer: number;
+  responseMode: 'multiple-choice' | 'typed';
+  timeLimitPerQuestion: number; // in ms
 }
 
 export interface Question {

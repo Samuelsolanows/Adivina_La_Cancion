@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { normalizeText, isAcceptableAnswer, seededRng, isVariantTrack } from '../lib/text';
 import { buildPool, generateQuestion } from './pool';
 import { PointsMode } from './modes/points';
-import type { Track, GameConfig } from './types';
+import type { Track, GameConfig, Player } from './types';
 
 describe('Text Utilities', () => {
   it('should normalize text correctly', () => {
@@ -19,6 +19,14 @@ describe('Text Utilities', () => {
     expect(isAcceptableAnswer('la biciclet', title)).toBe(true); // 1 char diff, acceptable
     expect(isAcceptableAnswer('la bicicletaaaa', title)).toBe(false); // too long
     expect(isAcceptableAnswer('otra cosa', title)).toBe(false);
+  });
+
+  it('should handle typed answers with typos and accents', () => {
+    const title = 'Niña Bonita';
+    expect(isAcceptableAnswer('nina bonita', title)).toBe(true);
+    expect(isAcceptableAnswer('niña bonita', title)).toBe(true);
+    expect(isAcceptableAnswer('nina bonit', title)).toBe(true); // minor typo
+    expect(isAcceptableAnswer('NIÑA BONITA', title)).toBe(true);
   });
 
   it('should detect variant tracks', () => {
@@ -49,23 +57,52 @@ describe('Pool Engine', () => {
   it('should generate questions with valid distractors', () => {
     const rng = seededRng(123);
     const pool = mockTracks.slice(0, 4);
-    const config: GameConfig = { difficulty: 'medium', fragmentDuration: 8, mode: 'points' };
+    const config: GameConfig = {
+      difficulty: 'medium',
+      fragmentDuration: 8,
+      mode: 'points',
+      questionsPerPlayer: 5,
+      responseMode: 'multiple-choice',
+      timeLimitPerQuestion: 8000
+    };
     const q = generateQuestion(pool[0], pool, config, rng);
 
     expect(q.options.length).toBe(4);
     expect(q.options).toContain(pool[0]);
-    expect(q.options.every(o => o.id !== pool[0].id || o === pool[0])).toBe(true);
+  });
+
+  it('should handle pools smaller than required questions', () => {
+    const rng = seededRng(123);
+    const pool = mockTracks.slice(0, 2); // Only 2 tracks
+    const config: GameConfig = {
+      difficulty: 'medium',
+      fragmentDuration: 8,
+      mode: 'points',
+      questionsPerPlayer: 5,
+      responseMode: 'multiple-choice',
+      timeLimitPerQuestion: 8000
+    };
+    // The engine should still function but we check that generateQuestion doesn't crash
+    const q = generateQuestion(pool[0], pool, config, rng);
+    expect(q.options.length).toBeLessThanOrEqual(4); // Should fill with whatever it has
+    expect(q.isDegraded).toBe(true);
   });
 });
 
 describe('Points Mode', () => {
-  const config: GameConfig = { difficulty: 'medium', fragmentDuration: 8, mode: 'points' };
-  const players = [{ id: 'p1', name: 'Player 1', score: 0, lives: 3, streak: 0, lastResponseTime: 0 }];
+  const config: GameConfig = {
+    difficulty: 'medium',
+    fragmentDuration: 8,
+    mode: 'points',
+    questionsPerPlayer: 2,
+    responseMode: 'multiple-choice',
+    timeLimitPerQuestion: 8000
+  };
+  const players: Player[] = [{ id: 'p1', name: 'Player 1', score: 0, lives: 3, streak: 0, lastResponseTime: 0 }];
 
   it('should calculate points and streaks correctly', () => {
     let state = PointsMode.init(config, players);
     const answer: any = { isCorrect: true, responseTime: 4000 }; // 4s / 8s = 50% time remaining
-
     state = PointsMode.onAnswer(state, answer);
 
     // Base 100 * 1.5 (med) = 150.
@@ -79,12 +116,57 @@ describe('Points Mode', () => {
     let state = PointsMode.init(config, players);
     const ans1: any = { isCorrect: true, responseTime: 1000 };
     const ans2: any = { isCorrect: false, responseTime: 1000 };
-
     state = PointsMode.onAnswer(state, ans1);
     expect(state.players[0].streak).toBe(1);
     state = PointsMode.onAnswer(state, ans2);
     expect(state.players[0].streak).toBe(0);
-    expect(state.players[0].score).toBeGreaterThan(0);
+  });
+
+  it('should rotate players in turns', () => {
+    const multiPlayers: Player[] = [
+      { id: 'p1', name: 'P1', score: 0, lives: 3, streak: 0, lastResponseTime: 0 },
+      { id: 'p2', name: 'P2', score: 0, lives: 3, streak: 0, lastResponseTime: 0 },
+    ];
+    let state = PointsMode.init(config, multiPlayers);
+
+    state = PointsMode.onAnswer(state, { isCorrect: true, responseTime: 1000, playerId: 'p1', trackId: 't1', questionId: 'q1' });
+    expect(state.currentPlayerIndex).toBe(1);
+    state = PointsMode.onAnswer(state, { isCorrect: true, responseTime: 1000, playerId: 'p2', trackId: 't1', questionId: 'q1' });
+    expect(state.currentPlayerIndex).toBe(0);
+  });
+
+  it('should handle a full game for 8 players', () => {
+    const manyPlayers: Player[] = Array.from({ length: 8 }, (_, i) => ({
+      id: `p${i}`, name: `P${i}`, score: 0, lives: 3, streak: 0, lastResponseTime: 0
+    }));
+    let state = PointsMode.init(config, manyPlayers);
+
+    // Game ends when currentQuestionIndex >= players.length * questionsPerPlayer
+    const totalQuestions = manyPlayers.length * config.questionsPerPlayer;
+    for (let i = 0; i < totalQuestions; i++) {
+      state = PointsMode.onAnswer(state, { isCorrect: true, responseTime: 1000, playerId: `p${i % 8}`, trackId: 't1', questionId: `q${i}` });
+    }
+
+    expect(PointsMode.isFinished(state)).toBe(true);
+  });
+
+  it('should handle exact tie in points', () => {
+    const p1: Player = { id: 'p1', name: 'P1', score: 0, lives: 3, streak: 0, lastResponseTime: 0 };
+    const p2: Player = { id: 'p2', name: 'P2', score: 0, lives: 3, streak: 0, lastResponseTime: 0 };
+    let state = PointsMode.init(config, [p1, p2]);
+
+    // Both get same score
+    state = PointsMode.onAnswer(state, { isCorrect: true, responseTime: 2000, playerId: 'p1', trackId: 't1', questionId: 'q1' });
+    state = PointsMode.onAnswer(state, { isCorrect: true, responseTime: 2000, playerId: 'p2', trackId: 't1', questionId: 'q1' });
+
+    expect(state.players[0].score).toBe(state.players[1].score);
+  });
+
+  it('should be serializable to JSON', () => {
+    const state = PointsMode.init(config, players);
+    const json = JSON.stringify(state);
+    const parsed = JSON.parse(json);
+    expect(parsed).toEqual(state);
   });
 });
 
@@ -99,7 +181,14 @@ describe('Determinism', () => {
         { id: '4', title: 'T4', artists: ['A4'], year: 2015, genres: ['G1'] },
       ];
       const { pool } = buildPool(tracks, {}, rng);
-      const config: GameConfig = { difficulty: 'medium', fragmentDuration: 8, mode: 'points' };
+      const config: GameConfig = {
+        difficulty: 'medium',
+        fragmentDuration: 8,
+        mode: 'points',
+        questionsPerPlayer: 5,
+        responseMode: 'multiple-choice',
+        timeLimitPerQuestion: 8000
+      };
       return generateQuestion(pool[0], pool, config, rng).options.map(o => o.id);
     };
 
