@@ -1,0 +1,14 @@
+[
+  {
+    "name": "iTunes",
+    "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e1/36/f3/e136f3aa-d889-7098-d279-98db0ee6b2de/mzaf_7954226528442342154.plus.aac.p.m4a",
+    "immediate": true,
+    "structure": "Standard HTTPS"
+  },
+  {
+    "name": "Deezer",
+    "url": "https://cdnt-preview.dzcdn.net/api/1/1/f/7/8/0/f78c9e276ffe4d05e2e715ef04b2f217.mp3?hdnea=exp=1793470756~acl=/api/1/1/f/7/8/0/f78c9e276ffe4d05e2e715ef04b2f217.mp3*~data=user_id=0,application_id=42~hmac=7ff25adc2db1da4f4c12fa81df9d7c819513d5c94541ac4f7c84887595f4de27",
+    "immediate": true,
+    "structure": "Standard"
+  }
+]

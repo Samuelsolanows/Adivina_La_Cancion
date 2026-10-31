@@ -1,0 +1,72 @@
+{
+  "vallenato": {
+    "itunes": {
+      "total": 100,
+      "hasYear": 100,
+      "inRange": 18,
+      "hasGenre": 100
+    },
+    "deezer": {
+      "total": 25,
+      "hasYear": 25,
+      "inRange": 3,
+      "hasGenre": 0
+    }
+  },
+  "salsa": {
+    "itunes": {
+      "total": 100,
+      "hasYear": 100,
+      "inRange": 24,
+      "hasGenre": 100
+    },
+    "deezer": {
+      "total": 25,
+      "hasYear": 25,
+      "inRange": 2,
+      "hasGenre": 0
+    }
+  },
+  "reggaeton": {
+    "itunes": {
+      "total": 100,
+      "hasYear": 100,
+      "inRange": 11,
+      "hasGenre": 100
+    },
+    "deezer": {
+      "total": 25,
+      "hasYear": 25,
+      "inRange": 0,
+      "hasGenre": 0
+    }
+  },
+  "rock en español": {
+    "itunes": {
+      "total": 100,
+      "hasYear": 100,
+      "inRange": 14,
+      "hasGenre": 100
+    },
+    "deezer": {
+      "total": 25,
+      "hasYear": 25,
+      "inRange": 1,
+      "hasGenre": 0
+    }
+  },
+  "pop latino": {
+    "itunes": {
+      "total": 100,
+      "hasYear": 100,
+      "inRange": 11,
+      "hasGenre": 100
+    },
+    "deezer": {
+      "total": 25,
+      "hasYear": 25,
+      "inRange": 4,
+      "hasGenre": 0
+    }
+  }
+}

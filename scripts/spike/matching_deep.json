@@ -1,0 +1,374 @@
+{
+  "basic": {
+    "results": [
+      {
+        "sample": "La Primera Vez - Carlos Vives",
+        "result": "MISS",
+        "score": 30,
+        "found": "itunes: Como Tú"
+      },
+      {
+        "sample": "La Taberna - Silvestre Dangond",
+        "result": "MISS",
+        "score": 0,
+        "found": "None"
+      },
+      {
+        "sample": "La Bicicleta - Shakira",
+        "result": "HIT",
+        "score": 80,
+        "found": "deezer: La Bicicleta"
+      },
+      {
+        "sample": "En Barranquilla Me Quedo - Joe Arroyo",
+        "result": "HIT",
+        "score": 90,
+        "found": "deezer: En Barranquilla Me Quedo"
+      },
+      {
+        "sample": "Tití Me Preguntó - Bad Bunny",
+        "result": "HIT",
+        "score": 90,
+        "found": "deezer: Tití Me Preguntó"
+      },
+      {
+        "sample": "La Tierra del Olvido - Carlos Vives",
+        "result": "HIT",
+        "score": 90,
+        "found": "deezer: La Tierra del Olvido"
+      },
+      {
+        "sample": "Niña Bonita - Silvestre Dangond",
+        "result": "MISS",
+        "score": 30,
+        "found": "itunes: Ya No Me Duele Más"
+      },
+      {
+        "sample": "Ciega Sordomuda - Shakira",
+        "result": "HIT",
+        "score": 90,
+        "found": "deezer: Ciega, Sordomuda"
+      },
+      {
+        "sample": "Rebelión - Joe Arroyo",
+        "result": "HIT",
+        "score": 90,
+        "found": "deezer: Rebelión (Versión los Nández Mix)"
+      },
+      {
+        "sample": "Dakiti - Bad Bunny",
+        "result": "HIT",
+        "score": 100,
+        "found": "deezer: DÁKITI"
+      },
+      {
+        "sample": "El Santo Cachón - Los Embajadores",
+        "result": "FP",
+        "score": 75,
+        "found": "deezer: El Santo Cachón (En Vivo, Colombia, 2020)"
+      },
+      {
+        "sample": "La Gota Fría - Carlos Vives",
+        "result": "HIT",
+        "score": 100,
+        "found": "deezer: La Gota Fria"
+      },
+      {
+        "sample": "Vallenato Romántico Mix - Various",
+        "result": "MISS",
+        "score": 30,
+        "found": "itunes: Vallenato Romántico (feat. JK Jurado)"
+      },
+      {
+        "sample": "Sola - Anuel AA",
+        "result": "HIT",
+        "score": 100,
+        "found": "deezer: Sola"
+      },
+      {
+        "sample": "Despacito - Luis Fonsi",
+        "result": "HIT",
+        "score": 110,
+        "found": "deezer: Despacito (Versión Urbana/Sky)"
+      },
+      {
+        "sample": "Mi Gente - J Balvin",
+        "result": "HIT",
+        "score": 110,
+        "found": "deezer: Mi Gente"
+      },
+      {
+        "sample": "La Bachata - Manuel Turizo",
+        "result": "HIT",
+        "score": 100,
+        "found": "deezer: La Bachata"
+      },
+      {
+        "sample": "Tusa - Karol G",
+        "result": "HIT",
+        "score": 110,
+        "found": "deezer: Tusa"
+      },
+      {
+        "sample": "Yo Perreo Sola - Bad Bunny",
+        "result": "HIT",
+        "score": 100,
+        "found": "deezer: Yo Perreo Sola"
+      },
+      {
+        "sample": "La Jumpa - Arcángel",
+        "result": "HIT",
+        "score": 90,
+        "found": "deezer: La Jumpa"
+      },
+      {
+        "sample": "El Santo - Various",
+        "result": "MISS",
+        "score": 30,
+        "found": "itunes: El Santo Varón"
+      },
+      {
+        "sample": "Salsa Brava - Various",
+        "result": "MISS",
+        "score": 0,
+        "found": "None"
+      },
+      {
+        "sample": "Vallenato Viejo - Various",
+        "result": "MISS",
+        "score": 0,
+        "found": "None"
+      },
+      {
+        "sample": "La Quiero a Morir - Ricky Martin",
+        "result": "MISS",
+        "score": 40,
+        "found": "deezer: La Mordidita (feat. Yotuel)"
+      },
+      {
+        "sample": "Livin' la Vida Loca - Ricky Martin",
+        "result": "HIT",
+        "score": 90,
+        "found": "deezer: Livin' la Vida Loca"
+      },
+      {
+        "sample": "Waka Waka - Shakira",
+        "result": "HIT",
+        "score": 110,
+        "found": "deezer: Waka Waka (This Time for Africa) (feat. Freshlyground)"
+      },
+      {
+        "sample": "Whenever, Wherever - Shakira",
+        "result": "HIT",
+        "score": 110,
+        "found": "deezer: Whenever, Wherever (Live at Live 8, Palais de Versailles, Paris, 2nd July 2005)"
+      },
+      {
+        "sample": "Under Pressure - Queen",
+        "result": "HIT",
+        "score": 100,
+        "found": "deezer: Under Pressure (feat. David Bowie)"
+      },
+      {
+        "sample": "Bohemian Rhapsody - Queen",
+        "result": "HIT",
+        "score": 110,
+        "found": "deezer: Bohemian Rhapsody"
+      },
+      {
+        "sample": "Thriller - Michael Jackson",
+        "result": "HIT",
+        "score": 110,
+        "found": "deezer: Thriller (Steve Aoki Midnight Hour Remix)"
+      }
+    ],
+    "rate": 70,
+    "fp": 1
+  },
+  "improved": {
+    "results": [
+      {
+        "sample": "La Primera Vez - Carlos Vives",
+        "result": "MISS",
+        "score": 30,
+        "found": "itunes: Como Tú"
+      },
+      {
+        "sample": "La Taberna - Silvestre Dangond",
+        "result": "MISS",
+        "score": 0,
+        "found": "None"
+      },
+      {
+        "sample": "La Bicicleta - Shakira",
+        "result": "HIT",
+        "score": 80,
+        "found": "deezer: La Bicicleta"
+      },
+      {
+        "sample": "En Barranquilla Me Quedo - Joe Arroyo",
+        "result": "HIT",
+        "score": 90,
+        "found": "deezer: En Barranquilla Me Quedo"
+      },
+      {
+        "sample": "Tití Me Preguntó - Bad Bunny",
+        "result": "HIT",
+        "score": 90,
+        "found": "deezer: Tití Me Preguntó"
+      },
+      {
+        "sample": "La Tierra del Olvido - Carlos Vives",
+        "result": "HIT",
+        "score": 90,
+        "found": "deezer: La Tierra del Olvido"
+      },
+      {
+        "sample": "Niña Bonita - Silvestre Dangond",
+        "result": "MISS",
+        "score": 30,
+        "found": "itunes: Ya No Me Duele Más"
+      },
+      {
+        "sample": "Ciega Sordomuda - Shakira",
+        "result": "HIT",
+        "score": 90,
+        "found": "deezer: Ciega, Sordomuda"
+      },
+      {
+        "sample": "Rebelión - Joe Arroyo",
+        "result": "HIT",
+        "score": 90,
+        "found": "deezer: Rebelión (Versión los Nández Mix)"
+      },
+      {
+        "sample": "Dakiti - Bad Bunny",
+        "result": "HIT",
+        "score": 100,
+        "found": "deezer: DÁKITI"
+      },
+      {
+        "sample": "El Santo Cachón - Los Embajadores",
+        "result": "FP",
+        "score": 75,
+        "found": "deezer: El Santo Cachón (En Vivo, Colombia, 2020)"
+      },
+      {
+        "sample": "La Gota Fría - Carlos Vives",
+        "result": "HIT",
+        "score": 100,
+        "found": "deezer: La Gota Fria"
+      },
+      {
+        "sample": "Vallenato Romántico Mix - Various",
+        "result": "MISS",
+        "score": 30,
+        "found": "itunes: Vallenato Romántico (feat. JK Jurado)"
+      },
+      {
+        "sample": "Sola - Anuel AA",
+        "result": "HIT",
+        "score": 100,
+        "found": "deezer: Sola"
+      },
+      {
+        "sample": "Despacito - Luis Fonsi",
+        "result": "HIT",
+        "score": 110,
+        "found": "deezer: Despacito (Versión Urbana/Sky)"
+      },
+      {
+        "sample": "Mi Gente - J Balvin",
+        "result": "HIT",
+        "score": 110,
+        "found": "deezer: Mi Gente"
+      },
+      {
+        "sample": "La Bachata - Manuel Turizo",
+        "result": "HIT",
+        "score": 100,
+        "found": "deezer: La Bachata"
+      },
+      {
+        "sample": "Tusa - Karol G",
+        "result": "HIT",
+        "score": 110,
+        "found": "deezer: Tusa"
+      },
+      {
+        "sample": "Yo Perreo Sola - Bad Bunny",
+        "result": "HIT",
+        "score": 100,
+        "found": "deezer: Yo Perreo Sola"
+      },
+      {
+        "sample": "La Jumpa - Arcángel",
+        "result": "HIT",
+        "score": 90,
+        "found": "deezer: La Jumpa"
+      },
+      {
+        "sample": "El Santo - Various",
+        "result": "MISS",
+        "score": 30,
+        "found": "itunes: El Santo Varón"
+      },
+      {
+        "sample": "Salsa Brava - Various",
+        "result": "MISS",
+        "score": 0,
+        "found": "None"
+      },
+      {
+        "sample": "Vallenato Viejo - Various",
+        "result": "MISS",
+        "score": 0,
+        "found": "None"
+      },
+      {
+        "sample": "La Quiero a Morir - Ricky Martin",
+        "result": "MISS",
+        "score": 40,
+        "found": "deezer: La Mordidita (feat. Yotuel)"
+      },
+      {
+        "sample": "Livin' la Vida Loca - Ricky Martin",
+        "result": "HIT",
+        "score": 90,
+        "found": "deezer: Livin' la Vida Loca"
+      },
+      {
+        "sample": "Waka Waka - Shakira",
+        "result": "HIT",
+        "score": 110,
+        "found": "deezer: Waka Waka (This Time for Africa) (feat. Freshlyground)"
+      },
+      {
+        "sample": "Whenever, Wherever - Shakira",
+        "result": "HIT",
+        "score": 110,
+        "found": "deezer: Whenever, Wherever (Live at Live 8, Palais de Versailles, Paris, 2nd July 2005)"
+      },
+      {
+        "sample": "Under Pressure - Queen",
+        "result": "HIT",
+        "score": 100,
+        "found": "deezer: Under Pressure (feat. David Bowie)"
+      },
+      {
+        "sample": "Bohemian Rhapsody - Queen",
+        "result": "HIT",
+        "score": 110,
+        "found": "deezer: Bohemian Rhapsody"
+      },
+      {
+        "sample": "Thriller - Michael Jackson",
+        "result": "HIT",
+        "score": 110,
+        "found": "deezer: Thriller (Steve Aoki Midnight Hour Remix)"
+      }
+    ],
+    "rate": 70,
+    "fp": 1
+  }
+}

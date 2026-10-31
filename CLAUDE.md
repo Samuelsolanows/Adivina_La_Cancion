@@ -33,7 +33,8 @@ A web-based game where users guess songs based on short audio fragments.
 - `npm run typecheck`: Run `tsc` for type validation.
 
 ## Open Risks
-- **Audio Availability**: Spike completed. Deezer is recommended as primary provider, iTunes as fallback.
-- **CORS/Proxy**: Deezer requires a proxy for browser access. The `api/` directory must be implemented as a serverless proxy.
-- **Preview URLs**: Validated 30s clips available for both services.
+- **Audio Availability**: Spike completed. Hybrid strategy: iTunes for discovery (filters), Deezer for resolution (matching).
+- **CORS/Proxy**: Deezer requires a proxy. The `api/` directory must be implemented as a serverless proxy.
+- **URL Expiration**: Deezer URLs expire. Resolution must happen per-session.
+- **Metadata Noise**: Years in Deezer are often album-release dates, not original track dates. iTunes is more reliable for year-filtering.
 
