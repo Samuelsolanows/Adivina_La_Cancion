@@ -1,5 +1,5 @@
 import { expect, test } from 'vitest';
-import { GameConfig } from './types';
+import type { GameConfig } from './types';
 
 test('GameConfig basic structure', () => {
   const config: GameConfig = {

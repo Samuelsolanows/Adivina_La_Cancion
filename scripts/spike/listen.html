@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio Spike Listener</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; background: #f4f4f9; }
+        .card {
+            background: white; padding: 15px; margin-bottom: 10px;
+            border-radius: 8px; display: flex; align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .card img { width: 50px; height: 50px; border-radius: 4px; margin-right: 15px; }
+        .info { flex-grow: 1; }
+        .info h4 { margin: 0; }
+        .info p { margin: 5px 0; font-size: 0.9em; color: #666; }
+        audio { height: 30px; }
+    </style>
+</head>
+<body>
+    <h1>🎧 Audio SPIKE: Listen Test</h1>
+    <div id="list">Loading tracks...</div>
+
+    <script>
+        async function load() {
+            try {
+                const res = await fetch('listen_data.json');
+                const data = await res.json();
+                const list = document.getElementById('list');
+                list.innerHTML = '';
+
+                data.slice(0, 10).forEach(t => {
+                    const div = document.createElement('div');
+                    div.className = 'card';
+                    div.innerHTML = `
+                        <img src="${t.cover}" alt="cover">
+                        <div class="info">
+                            <h4>${t.title}</h4>
+                            <p>${t.artist} | ${t.year} | ${t.genre}</p>
+                        </div>
+                        <audio controls src="${t.url}"></audio>
+                    `;
+                    list.appendChild(div);
+                });
+            } catch (e) {
+                document.getElementById('list').innerText = 'Error loading data: ' + e;
+            }
+        }
+        load();
+    </script>
+</body>
+</html>

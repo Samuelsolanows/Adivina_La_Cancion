@@ -33,4 +33,7 @@ A web-based game where users guess songs based on short audio fragments.
 - `npm run typecheck`: Run `tsc` for type validation.
 
 ## Open Risks
-- **Audio Availability:** Spotify's `preview_url` is increasingly restricted for new apps, and the Web Playback SDK requires Premium. A technical spike is required to validate legal/technical audio sourcing.
+- **Audio Availability**: Spike completed. Deezer is recommended as primary provider, iTunes as fallback.
+- **CORS/Proxy**: Deezer requires a proxy for browser access. The `api/` directory must be implemented as a serverless proxy.
+- **Preview URLs**: Validated 30s clips available for both services.
+
